@@ -1,7 +1,7 @@
 {
-  "name": "chrome-profile-list",
+  "name": "chromium-profile-list",
   "version": "1.1.0",
-  "description": "Utility package to list available Google Chrome Profiles",
+  "description": "Utility package to list available Chromium-based browser Profiles",
   "main": "index.js",
   "scripts": {
     "release": "standard-version",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/israelroldan/chrome-profile-list.git"
+    "url": "git+https://github.com/Pittan/chromium-profile-list.git"
   },
   "keywords": [
     "Google",
@@ -17,12 +17,12 @@
     "Chrome",
     "Profile"
   ],
-  "author": "Israel Roldan (chrome-profile-list@isro.im)",
+  "author": "Pittan (pittan@pittankopta.net)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/israelroldan/chrome-profile-list/issues"
+    "url": "https://github.com/Pittan/chromium-profile-list/issues"
   },
-  "homepage": "https://github.com/israelroldan/chrome-profile-list#readme",
+  "homepage": "https://github.com/Pittan/chromium-profile-list#readme",
   "dependencies": {
     "phylo": "^1.0.0-rc.3"
   },
