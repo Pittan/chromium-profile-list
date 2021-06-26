@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.2.1"></a>
+## [1.2.1](https://github.com/Pittan/chromium-profile-list/compare/v1.2.0...v1.2.1) (2021-06-26)
+
+
+### Bug Fixes
+
+* **List:** script errors ([59dbf49](https://github.com/Pittan/chromium-profile-list/commit/59dbf49))
+
+
+
 <a name="1.2.0"></a>
 # [1.2.0](https://github.com/Pittan/chromium-profile-list/compare/v1.1.1...v1.2.0) (2021-06-26)
 
