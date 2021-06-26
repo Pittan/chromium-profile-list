@@ -28,7 +28,7 @@ const locations = {
     macOS: [
         `${os.homedir()}/Library/Application Support/Google/Chrome`,
         `${os.homedir()}/Library/Application Support/Google/Chrome Canary`,
-        `${os.homedir()}/Library/Application Support/Chromium`
+        `${os.homedir()}/Library/Application Support/Chromium`,
         `${os.homedir()}/Library/Application Support/Microsoft Edge`,
         `${os.homedir()}/Library/Application Support/Microsoft Edge Beta`,
         `${os.homedir()}/Library/Application Support/Microsoft Edge Dev`,
@@ -37,11 +37,11 @@ const locations = {
     windows: [
         `${process.env.LOCALAPPDATA}\\Google\\Chrome\\User Data`,
         `${process.env.LOCALAPPDATA}\\Google\\Chrome SxS\\User Data`,
-        `${process.env.LOCALAPPDATA}\\Chromium\\User Data`
-        `${process.env.LOCALAPPDATA}\\Microsoft\\Edge\\User Data`
-        `${process.env.LOCALAPPDATA}\\Microsoft\\Edge Beta\\User Data`
-        `${process.env.LOCALAPPDATA}\\Microsoft\\Edge Dev\\User Data`
-        `${process.env.LOCALAPPDATA}\\Microsoft\\Edge SxS\\User Data`
+        `${process.env.LOCALAPPDATA}\\Chromium\\User Data`,
+        `${process.env.LOCALAPPDATA}\\Microsoft\\Edge\\User Data`,
+        `${process.env.LOCALAPPDATA}\\Microsoft\\Edge Beta\\User Data`,
+        `${process.env.LOCALAPPDATA}\\Microsoft\\Edge Dev\\User Data`,
+        `${process.env.LOCALAPPDATA}\\Microsoft\\Edge SxS\\User Data`,
     ],
     // TODO: consider the `~/.config` part can be overriden by $CHROME_VERSION_EXTRA or $XDG_CONFIG_HOME
     linux: [
