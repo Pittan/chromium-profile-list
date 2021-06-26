@@ -1,14 +1,14 @@
-# chrome-profile-list
+# chromium-profile-list
 > Get a list of existing Google Chrome, Google Chrome Canary or Chromium user profiles
 
 ## Install
 ```
-npm install chrome-profile-list
+npm install chromium-profile-list
 ```
 
 ## Usage
 ```
-var chromeProfileList = require('chrome-profile-list');
+var chromeProfileList = require('chromium-profile-list');
 console.log(chromeProfileList());
 
 // Something like this is logged to the console:
@@ -58,7 +58,7 @@ An enum of possible variants to search profiles for:
 Example:
 
 ```
-var chromeProfileList = require('chrome-profile-list');
+var chromeProfileList = require('chromium-profile-list');
 
 console.log(chromeProfileList(chromeProfileList.variants.CHROMIUM));
 
@@ -66,11 +66,8 @@ console.log(chromeProfileList(chromeProfileList.variants.CHROMIUM));
 ```
 
 ## Author
-
-Israel Roldan
-
-## Related
-- [chrome-profile-list-cli](https://www.npmjs.com/package/chrome-profile-list-cli) a CLI for this module
+Amon Keishima
+(forked form Israel Roldan's chrome-profile-list)
 
 ## LICENSE
 
